@@ -1,0 +1,30 @@
+/* src/components/NameInput.css */
+.name-input {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.name-input input {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 30px;
+    border: 2px solid #ccc;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.name-input input:focus {
+    border-color: #6c5ce7;
+}
+
+.app.dark .name-input input {
+    background-color: #333;
+    color: white;
+    border-color: #555;
+}
+
+.app.dark .name-input input:focus {
+    border-color: #a29bfe;
+}

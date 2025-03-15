@@ -1,0 +1,17 @@
+.score-display {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    color: #2d3436;
+    transition: all 0.3s ease;
+}
+
+.score-display span {
+    font-size: 1rem;
+    opacity: 0.7;
+    margin-right: 0.5rem;
+}
+
+.app.dark .score-display {
+    color: #f5f6fa;
+}

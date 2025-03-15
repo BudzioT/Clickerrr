@@ -1,0 +1,24 @@
+.clicker-button {
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    margin: 2rem 0;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(108, 92, 231, 0.2);
+    transition: all 0.3s ease;
+    font-weight: 700;
+}
+
+.clicker-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.app.dark .clicker-button {
+    background-color: #a29bfe;
+    color: #1e1e1e;
+}
